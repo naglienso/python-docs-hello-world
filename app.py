@@ -1,6 +1,6 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route("/")
+@app.route("/nagli-secret-endpoint.txt")
 def hello():
-    return "nagli or m0chan-takeover"
+    return "shockwave poc - nagli"
