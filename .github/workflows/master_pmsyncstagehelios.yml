@@ -73,6 +73,5 @@ jobs:
         uses: azure/webapps-deploy@v2
         id: deploy-to-webapp
         with:
-          app-name: 'pmsyncstagehelios.azurewebsites.net'
-          slot-name: 'Production'
+          app-name: 'pmsyncstagehelios'
           
